@@ -1,0 +1,91 @@
+body{
+  text-align:center;
+  background:linear-gradient(#E1BEE7 0%,#90CAF9 100%);
+  background-repeat:no-repeat;
+  border-style:solid;
+}
+
+#books{
+  width:200px;
+  border-radius:50%
+}
+
+h1{
+  text-shadow:2px 2px #F8BBDO;
+  font-size:20px
+}
+
+#bio{
+  padding:20px;
+  font-size:18;
+  text-align:center
+}
+
+.line{
+  height:6px;
+  background-color:black;
+  width:70px;
+  margin:8px auto;
+}
+
+.links:hover{
+    background-image: linear-gradient(pink,lavender,skyblue);
+    font-size: 25px;
+    text-decoration: underline;
+    color: deeppink;
+    font-family: fantasy;
+    border: 2px solid deeppink
+}
+
+.links{
+    float:left;
+    color: purple;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    border: 2px solid #E1BEE7
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+    position: absolute
+}
+
+#speech{
+    text-indent: 18px
+}
+
+h2{
+    text-decoration: underline
+}
+
+#pic1{
+    width: 226px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+#pic1:hover{
+    transform: scale(0.9)
+}
+
+#pic2{
+    width: 200px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+#pic2:hover{
+    transform: scale(0.9)
+}
+
+#authors{
+    display: inline;
+    text-decoration: underline
+}
